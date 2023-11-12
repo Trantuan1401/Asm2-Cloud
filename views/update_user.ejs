@@ -3,18 +3,18 @@
         <div class="container">
             <div class="box-nav d-flex justify-between">
                 <div class="filter">
-                    <a href="/"><i class="fas fa-angle-double-left"></i>All Users</a>
+                    <a href="/"><i class="fas fa-angle-double-left"></i>All Books</a>
                 </div>
             </div>
             <div class="form-title text-center">
-                <h2 style="color: rgb(123, 161, 193); font-weight: bolder;">Update Userr</h2>
-                <span class="text-light">User the below form to Update an account</span>
+                <h2 style="color: rgb(123, 161, 193); font-weight: bolder;">Update Books</h2>
+                <span class="text-light">User the below form to Update a books</span>
             </div>
 
             <form method="POST" id="update_user">
                 <div class="new_user">
                     <div class="form-group">
-                        <label for="name" class="text-light">Toy's name</label>
+                        <label for="name" class="text-light">Book's name</label>
                         <input type="hidden" name="id" value="<%= user._id %>">
                         <input type="text" name="name" value="<%= user.name %>" placeholder="Mark Stoenis">
                     </div>

@@ -8,9 +8,7 @@
 body{
     color: #fefefe;
     font-weight: bolder;
-    background-image:url("https://images2.alphacoders.com/595/595860.png"); ;
-    background-size: 130% 300%;
-    animation: gradient 30s ease infinite;
+    background-image:url("https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/280262193/original/178fc20d415852429fd35309edb1652310910b64/create-beautiful-anime-background-art.png"); ;
     padding: 0px;
     margin: 0;
 }
@@ -84,7 +82,7 @@ a {
 }
 
 #header nav {
-    background: linear-gradient(to right, #dcaed5, #3f133c);
+    background: linear-gradient(to right, #0ad74f, #20a6d3);
     padding: 1em 0;
     width: 100%;
 }
